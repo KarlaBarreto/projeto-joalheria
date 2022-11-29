@@ -14,10 +14,63 @@
         <p>Toda joia carrega uma história</p>
     </header>
     <nav>
+        <a href="index.html">HOME</a>
         <a href="aneis.html">ANÉIS</a>
         <a href="braceletes.html">BRACELETES</a>
         <a href="brincos.html">BRINCOS</a>
     </nav>
-    <h1>Entre ou Cadastre-se</h1>
+    <main>
+        <h1 class="tituloform">Entre ou Cadastre-se</h1>
+        <form action="#" method="post" autocomplete="on">
+            <div id="cadastro">  
+                <p>Login</p>          
+                <div class="dados">
+                    <label for="iusu">Usuario:</label>
+                    <input type="text" name="usu" id="iusu" required autocomplete="username">
+                </div>         
+                <div class="dados">
+                    <label for="isen">Senha:</label>
+                    <input type="password" name="sen" id="isen" required minlength="8" autocomplete="current-password">
+                </div> 
+                <div id="botoes">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>           
+            </div>            
+        </form>
+        <article>
+            <aside id="aside_links">
+
+                <div class="list">
+                    <h3>Nossa Empresa</h3>
+                    <a href="#">Sobre a Handmade</a>
+                    <a href="#">Sustentabilidade</a>
+                    <a href="#">Fale Conosco</a>
+                </div>
+                <div class="list">
+                    <h3>Atendimento</h3>
+                    <a href="#">Horários</a>
+                    <a href="#">Meus Pedidos</a>
+                </div>
+                <div class="list">
+                    <h3>Informações</h3>
+                    <a href="#">Politica de troca</a>
+                    <a href="#">Politica de conserto</a>
+                    <a href="#">Formas de pagamento</a>
+                </div>
+
+            </aside>
+
+            <aside id="redes">
+                <h2>Redes Sociais</h2>
+                <a href="https://instagram.com" target="_blank"><img src="imagens-ok/instagram.png" alt="Instagram"></a>
+                <a href="https://facebook.com" target="_blank"><img src="imagens-ok/facebook.png" alt="Facebook"></a>
+                <a href="https://youtube.com" target="_blank"><img src="imagens-ok/youtube.png" alt="Youtube"></a>
+                <a href="https://twitter.com" target="_blank"><img src="imagens-ok/twitter.png" alt="Twitter"></a>
+            </aside>
+    </main>
+    <footer>
+        <p>Desevolvido por <a href="https://instagram.com/KarlaAlcanttara">Karla Barreto</a></p>
+    </footer>
 </body>
 </html>

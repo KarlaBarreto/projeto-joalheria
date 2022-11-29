@@ -76,7 +76,7 @@ nav a:hover {
     width: 95vw;
 }
 
-.titulosubpaginas {
+.titulosubpaginas, .tituloform {
     font-family: 'Cormorant Garamond';
     font-size: 3em;
     font-weight: 500;
@@ -98,6 +98,10 @@ section {
     margin: 10px;
     border: 1px solid rgba(0, 0, 0, 0.308);
     background-color: var(--cor1);
+}
+
+.banners:hover {
+    border-color: var(--cor2);
 }
 
 .preco {
@@ -178,4 +182,46 @@ footer a:hover {
     padding: 5px;
     border-radius: 2px;
     color: white;
+}
+
+#cadastro {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--cor1);
+    width: 250px;
+    height: 250px;
+}
+
+#cadastro p {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.dados {  
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+}
+
+#isen {
+    margin-left: 10px;
+}
+
+#botoes {    
+    display: flex;
+    justify-content: flex-end;    
+    margin: 5px 25px;
+
+}
+
+input[type=submit], input[type=reset] {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    cursor: pointer;
 }
